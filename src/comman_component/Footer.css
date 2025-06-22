@@ -1,0 +1,13 @@
+.footerContainer {
+  background-image: url("../../public/assets/footerimage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+}
+.logoIcon {
+  width: 140px;
+  color: #dae5ff;
+}
+
+@media screen {
+}

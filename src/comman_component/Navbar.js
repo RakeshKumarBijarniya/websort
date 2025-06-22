@@ -62,19 +62,19 @@ const Navbar = () => {
 
             <div className="col-4 d-lg-none text-end productItem">
               <Link to="/" style={{ textDecoration: "none" }}>
-                <p style={{ fontSize: "20px" }}>About us</p>
+                <p style={{ fontSize: "20px", color: "#fff" }}>About us</p>
               </Link>
               <Link to="/service" style={{ textDecoration: "none" }}>
-                <p style={{ fontSize: "20px" }}>Services</p>
+                <p style={{ fontSize: "20px", color: "#fff" }}>Services</p>
               </Link>
               <Link to="/project" style={{ textDecoration: "none" }}>
-                <p style={{ fontSize: "20px" }}>Projects</p>
+                <p style={{ fontSize: "20px", color: "#fff" }}>Projects</p>
               </Link>
               <Link to="/career" style={{ textDecoration: "none" }}>
-                <p style={{ fontSize: "20px" }}>Careers</p>
+                <p style={{ fontSize: "20px", color: "#fff" }}>Careers</p>
               </Link>
               <Link to="/contect" style={{ textDecoration: "none" }}>
-                <p style={{ fontSize: "20px" }}>Contect</p>
+                <p style={{ fontSize: "20px", color: "#fff" }}>Contect</p>
               </Link>
             </div>
           </div>

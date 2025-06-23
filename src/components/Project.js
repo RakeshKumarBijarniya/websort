@@ -32,7 +32,7 @@ const Project = () => {
                   <div className="text-center mt-3">
                     <div>
                       <img
-                        src="/assets/home.png"
+                        src="/assets/Home.png"
                         alt="home"
                         style={{ width: "30px", height: "30px" }}
                       />
@@ -48,7 +48,7 @@ const Project = () => {
                     <div>
                       <img
                         src="/assets/service.png"
-                        alt="home"
+                        alt="service"
                         style={{ width: "30px", height: "30px" }}
                       />
                     </div>
@@ -64,7 +64,7 @@ const Project = () => {
                     <div>
                       <img
                         src="/assets/project_b.png"
-                        alt="home"
+                        alt="project"
                         style={{ width: "30px", height: "30px" }}
                       />
                     </div>
@@ -79,7 +79,7 @@ const Project = () => {
                     <div>
                       <img
                         src="/assets/career_b.png"
-                        alt="home"
+                        alt="career"
                         style={{ width: "30px", height: "30px" }}
                       />
                     </div>

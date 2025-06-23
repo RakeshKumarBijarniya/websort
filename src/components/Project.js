@@ -12,7 +12,7 @@ const Project = () => {
 
         <div className="container">
           <div className="row">
-            <div className="col-12 d-lg-none ">
+            <div className="col-12 d-lg-none d-flex justify-content-center">
               <div
                 style={{
                   position: "fixed",

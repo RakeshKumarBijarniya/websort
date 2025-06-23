@@ -61,19 +61,39 @@ const Navbar = () => {
             <div className="col-4 d-lg-none text-end "></div>
 
             <div className="col-4 d-lg-none text-end productItem">
-              <Link to="/" style={{ textDecoration: "none" }}>
+              <Link
+                to="/"
+                style={{ textDecoration: "none" }}
+                onClick={() => setMenuOpen(!menuOpen)}
+              >
                 <p style={{ fontSize: "20px", color: "#fff" }}>About us</p>
               </Link>
-              <Link to="/service" style={{ textDecoration: "none" }}>
+              <Link
+                to="/service"
+                style={{ textDecoration: "none" }}
+                onClick={() => setMenuOpen(!menuOpen)}
+              >
                 <p style={{ fontSize: "20px", color: "#fff" }}>Services</p>
               </Link>
-              <Link to="/project" style={{ textDecoration: "none" }}>
+              <Link
+                to="/project"
+                style={{ textDecoration: "none" }}
+                onClick={() => setMenuOpen(!menuOpen)}
+              >
                 <p style={{ fontSize: "20px", color: "#fff" }}>Projects</p>
               </Link>
-              <Link to="/career" style={{ textDecoration: "none" }}>
+              <Link
+                to="/career"
+                style={{ textDecoration: "none" }}
+                onClick={() => setMenuOpen(!menuOpen)}
+              >
                 <p style={{ fontSize: "20px", color: "#fff" }}>Careers</p>
               </Link>
-              <Link to="/contect" style={{ textDecoration: "none" }}>
+              <Link
+                to="/contect"
+                style={{ textDecoration: "none" }}
+                onClick={() => setMenuOpen(!menuOpen)}
+              >
                 <p style={{ fontSize: "20px", color: "#fff" }}>Contect</p>
               </Link>
             </div>

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import "./style/about.css";
 import ImageCarousel from "../comman_component/ImageCrousel";
+import { Link } from "react-router-dom";
 
 const About = () => {
   const [image, setImage] = useState(0);
@@ -103,7 +104,7 @@ const About = () => {
         </div>
         <div
           className="arrowContainer"
-          style={{ position: "relative", top: "80px", gap: "40px" }}
+          style={{ position: "relative", top: "100px", gap: "40px" }}
         >
           <img
             src="/assets/arrowR.png"
@@ -336,17 +337,19 @@ const About = () => {
       </div>
       <div className="bottomContainer d-flex  flex-column align-items-center p-5 justify-content-center">
         <h3 className="text-white">See what opportunities await you</h3>
-        <button
-          className="text-white"
-          style={{
-            backgroundColor: "#9037C3",
-            border: "none",
-            borderRadius: "15px",
-            padding: "5px 20px",
-          }}
-        >
-          Explore More
-        </button>
+        <Link to="/career">
+          <button
+            className="text-white"
+            style={{
+              backgroundColor: "#9037C3",
+              border: "none",
+              borderRadius: "15px",
+              padding: "5px 20px",
+            }}
+          >
+            Explore More
+          </button>
+        </Link>
       </div>
     </div>
   );
